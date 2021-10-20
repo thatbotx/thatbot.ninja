@@ -63,7 +63,9 @@ function Home() {
       <hr />
       <h3 className="yellow inline">Do You  Want To Play?</h3>
       <br />
-      <a className="btn btn-warning btn-lg padbutton" href="/instructions">Click Here!</a>
+      <Link to="/instructions" className="btn btn-warning btn-lg paddbutton">Click Here!</Link>
+
+      {/* <a className="btn btn-warning btn-lg padbutton" href="/instructions">Click Here!</a> */}
 
       <p className="padbottom marged">
         Join our Discord Server <strong>@</strong> <a href="https://discord.gg/HR9jCRgQ" alt="Join Our Discord Server">Join our Discord</a>
