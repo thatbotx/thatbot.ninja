@@ -9313,7 +9313,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react-router-dom@^5.3.0":
+"react-router-dom@^5.2.0", "react-router-dom@^5.3.0":
   "integrity" "sha512-ObVBLjUZsphUUMVycibxgMdh5jJ1e3o+KpAZBVeHcNQZ4W+uUGGWsokurzlF4YOldQYRQL4y6yFRWM4m3svmuQ=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.3.0.tgz"
   "version" "5.3.0"
@@ -9325,6 +9325,14 @@
     "react-router" "5.2.1"
     "tiny-invariant" "^1.0.2"
     "tiny-warning" "^1.0.0"
+
+"react-router-refreshable@^0.3.0":
+  "integrity" "sha512-fGj13WylEd4ZMvOolO+8Sg796pApWdn5f+tTMBPh0x+SrXX00Nk0gh2mQ9VNkXYViBpjg0JoW+T77HxdRkrChQ=="
+  "resolved" "https://registry.npmjs.org/react-router-refreshable/-/react-router-refreshable-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "use-force-update" "^1.0.7"
+    "use-previous" "^1.1.0"
 
 "react-router@^5.2.1", "react-router@5.2.1":
   "integrity" "sha512-lIboRiOtDLFdg1VTemMwud9vRVuOCZmUIT/7lUoZiSpPODiiH1UQlfXy+vPLC/7IWdFYnhRwAyNqA/+I7wnvKQ=="
@@ -9408,7 +9416,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^17.0.2", "react@>= 16", "react@>=15", "react@17.0.2":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@>= 16", "react@>=15", "react@>=16", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -11189,6 +11197,23 @@
   dependencies:
     "punycode" "1.3.2"
     "querystring" "0.2.0"
+
+"use-force-update@^1.0.7":
+  "integrity" "sha512-k5dppYhO+I5X/cd7ildbrzeMZJkWwdAh5adaIk0qKN2euh7J0h2GBGBcB4QZ385eyHHnp7LIygvebdRx3XKdwA=="
+  "resolved" "https://registry.npmjs.org/use-force-update/-/use-force-update-1.0.7.tgz"
+  "version" "1.0.7"
+
+"use-isomorphic-layout-effect@^1.1.0":
+  "integrity" "sha512-L7Evj8FGcwo/wpbv/qvSfrkHFtOpCzvM5yl2KVyDJoylVuSvzphiiasmjgQPttIGBAy2WKiBNR98q8w7PiNgKQ=="
+  "resolved" "https://registry.npmjs.org/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.1.tgz"
+  "version" "1.1.1"
+
+"use-previous@^1.1.0":
+  "integrity" "sha512-t6ltKuYIpvcqD+VBnlUOaT+N94bN7HwUdB1u7rSpCIh9XvMJQIjsw/G8DoJlSDh029khFQ2L8q88oUWfKoWy5w=="
+  "resolved" "https://registry.npmjs.org/use-previous/-/use-previous-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "use-isomorphic-layout-effect" "^1.1.0"
 
 "use@^3.1.0":
   "integrity" "sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ=="
