@@ -100,7 +100,7 @@ function Home() {
         {/* this div is a color filler */}
       </div>
       <p className="goldbg nomargin padded">
-        <strong>You can use</strong> <em><span className="blue fontsize padded">"thatbot.ninja"</span></em> <strong>in the <strong>server IP field</strong> when you add a server
+        <strong>You can use</strong> <em><span className="blue fontsize padded">"thatbot.ninja:25555"</span></em> <strong>in the <strong>server IP field</strong> when you add a server
         <br />
         in <strong>Multi-Player</strong> when you <strong>Add a Server</strong> in your game in <span className="blue fontsize"><em>Minecraft</em></span>.</strong>
       </p>
@@ -155,11 +155,11 @@ function Screenshots() {
 function Instructions() {
   return (
     <div className="App">
-      <h1 className="bluebg">| <span className="orangered">Minecraft Server</span> | <span className="blue">'ThatBot.Ninja'</span></h1>
+      <h1 className="bluebg">| <span className="orangered">Minecraft Server</span> | <span className="blue">'ThatBot.Ninja:25555'</span></h1>
       <h2 className="graybg" style={{ backgroundImage: "url(/placeholder.png)" }}>|  <span className="orange">Better Pack your Lunch Before Your Friends</span> | <span className="yellowtextonly">Find Out!</span></h2>
       <hr />
       <h3>Instructions For Connecting To Our Server</h3>
-      <strong>@</strong> <h3 className="inline">Server Address: <span className="blue"><em>thatbot.ninja</em></span></h3>
+      <strong>@</strong> <h3 className="inline">Server Address: <span className="blue"><em>thatbot.ninja:25555</em></span></h3>
       <p>
         <img src="servers-img.png" height="90" width="90" alt="Servers Icon" />
       </p>
