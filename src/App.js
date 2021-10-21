@@ -115,7 +115,8 @@ function Home() {
         <br />
         This <strong>epic game of Minecraft</strong> you can't afford to not play on our <strong>Minecraft servers</strong>!
       </div>
-      <h2 className="whitebg">Put "<span className="blue">thatbot.ninja</span>" in the "<span className="orange">Add Server</span>" box in "<span className="orangered">Minecraft (Java Edition)</span>" and connect.</h2>
+      <h2 className="whitebg">Put "<span className="blue">thatbot.ninja:25555</span>" in the "<span className="orange">Add Server</span>" box in "<span className="orangered">Minecraft (Java Edition)</span>" and connect.</h2>
+      If you get server is hibernating connect to it, so that it will start, then wait 60 seconds for it to come online and you can join.
       <div class="alert alert-warning" role="alert">
         Bring Fun Into Your World With Minecraft! ⭐ <a href="https://www.minecraft.net" alt="Minecraft website" target="_blank">Minecraft Developer's Website</a> ⭐
       </div>
