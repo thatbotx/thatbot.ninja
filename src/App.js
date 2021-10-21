@@ -31,18 +31,19 @@ export default function App() {
             </li>
           </ul>
         </center>
-
-        <Switch>
-          <Route path="/screenshots">
-            <Screenshots />
-          </Route>
-          <Route path="/instructions">
-            <Instructions />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Refreshable>
+          <Switch>
+            <Route path="/screenshots">
+              <Screenshots />
+            </Route>
+            <Route path="/instructions">
+              <Instructions />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Refreshable>
       </div>
     </Router>
   );
