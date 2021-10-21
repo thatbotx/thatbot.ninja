@@ -166,15 +166,14 @@ function Instructions() {
       <p>(Because our server might be hibernating if noone has connected)</p>
       <hr />
       <ul>
-        <li className="block">⭐ You will need to <strong>add 2 servers</strong>, one is <strong>to wake up the hibernating server</strong> if it is hibernating.</li>
-        <li className="block">⭐ Open the game and go to <strong>Multi-Player</strong> then <strong>Add a Server</strong>.</li>
+        <li className="block">⭐ You will need to <strong>add 1 server</strong></li>
+        <li className="block">⭐ Open the game and go to <strong>Multi-Player</strong> then <strong>Add the Server there</strong>.</li>
         <li className="block">⭐ In the address box <strong>type the following address</strong>: <span className="blue">thatbot.ninja:25555</span></li>
-        <li className="block">⭐ Use the previous address &amp; port to <strong>start the server</strong> if it says it's hibernating.</li>
-        <li className="block">⭐ <strong>Add another server</strong> with the following: <span className="blue">thatbot.ninja</span> (<strong>without a port number</strong>)</li>
-        <li className="block">⭐ The last mentioned server is the one you're going to <strong>connect</strong> to.</li>
-        <li className="block">⭐ The way it works is you <strong>1st connect to the 1st server</strong> to wake the second one, after which you have to wait about 30-50 seconds, after which you can connect to the second server.</li>
-        <li className="block">⭐ You can <strong>refresh the list of servers</strong> in your game, and if you've 1st connected to server #1 then <strong>wait for about 40 seconds</strong>, then after you refresh you should see the second server come online.</li>
-        <li className="block">⭐ The "<strong>Server is Hibernating</strong>" disappears on the first server, and the connection stats show green bars after the 2nd server showing its latency.</li>
+        <li className="block">⭐ Use that address &amp; port to <strong>start the server</strong> if it is hibernating.</li>
+        <li className="block">⭐ The server you've added is the one you are going to <strong>connect</strong> to.</li>
+        <li className="block">⭐ The way it works is you <strong>1st connect to the server to wake it up</strong>. Second, after which you have to wait about 30-50 seconds, after which you can connect to the server.</li>
+        <li className="block">⭐ You can <strong>refresh the list of servers</strong> in your game, and if you've 1st connected to server to wake it then <strong>wait for about 40 seconds</strong>, then after you refresh you should see the server come online.</li>
+        <li className="block">⭐ The "<strong>Server is Hibernating</strong>" disappears on the server if you press <strong>Refresh</strong>, then the connection stats show green bars behind the server showing the latency.</li>
       </ul>
       <hr />
       <p><h1 className="orangered">(Log in and have fun)</h1></p>
@@ -204,9 +203,9 @@ function Instructions() {
         Then log into the server: <span className="red">"thatbot.ninja"</span>. See the green bars behind it?
       </p>
       <img src="./img/server/server-4.png" alt="Server is Warming Up" />
-      <p>Server is warming up.</p>
+      <p className="blue">Server is warming up.</p>
       <img src="./img/server/server-5.png" alt="Server is Ready" />
-      <p>Server is ready.</p>
+      <p className="blue">Server is ready.</p>
       <hr />
       <footer>
         <p>
