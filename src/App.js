@@ -1,6 +1,5 @@
 import './App.css';
 import React from "react";
-import { useHistory } from 'react-router'
 
 import {
   BrowserRouter as Router,
@@ -9,18 +8,12 @@ import {
   Link,
 } from "react-router-dom";
 
-import { fetchData, useEffect, useLocation } from 'react-router';
+function reloadPage(){ 
+  window.location.reload(); 
+}
 
 export default function App() {
-  
-  const history = useHistory();
-  history.go(0);
-
-  const location = useLocation();
-
-  useEffect(() => {
-    fetchData();
-  }, [location.key]);
+  reloadPage();
   
   return (
     <Router forceRefresh={true}>
