@@ -191,17 +191,22 @@ function Instructions() {
       <p>❤️❤️❤️</p>
       <img src="./img/server/server-1.png" alt="Server -1-" />
       <p className="blue">The starter server has the <span className="red">"<strong>:</strong>25555"</span> added to the server name. Don't forget the colon '<span className="red"><strong>:</strong></span>' ...</p>
-      <img src="./img/server/server-2.png" alt="Servers" />
+      <img src="./img/server/server-2.png" alt="Issue Wake Up" />
       <p className="blue">
         When the server is hibernating you can't connect to "<span className="red">thatbot.ninja</span>". First wake it up!
         <br />
         Do so by connecting to the start server first and then click on "Go Back" and wait for about 30-40 seconds. Then finally connect to the 2nd server (<span className="red">thatbot.ninja</span>).
       </p>
-      <img src="./img/server/server-ready.png" alt="Server is Ready" />
+      <img src="./img/server/server-3.png" alt="Server is Hibernating" />
       <p className="blue">
         When the server is ready to log in and when you press "Refresh", it should look like the picture above.
         <br />
-        Then log into the server: <span className="red">"thatbot.ninja"</span>. See the green bars behind it?</p>
+        Then log into the server: <span className="red">"thatbot.ninja"</span>. See the green bars behind it?
+      </p>
+      <img src="./img/server/server-4.png" alt="Server is Warming Up" />
+      <p>Server is warming up.</p>
+      <img src="./img/server/server-5.png" alt="Server is Ready" />
+      <p>Server is ready.</p>
       <hr />
       <footer>
         <p>
