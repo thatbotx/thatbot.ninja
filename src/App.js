@@ -1,6 +1,5 @@
 import './App.css';
 import React from "react";
-import { Refreshable } from "react-router-refreshable";
 
 import {
   BrowserRouter as Router,
@@ -13,7 +12,7 @@ import {
 export default function App() {
   
   return (
-    <Router forceRefresh={true}>
+    <Router>
       <div>
         <center>
           <ul className="block">
@@ -28,19 +27,17 @@ export default function App() {
             </li>
           </ul>
         </center>
-        <Refreshable>
-          <Switch>
-            <Route path="/screenshots">
-              <Screenshots />
-            </Route>
-            <Route path="/instructions">
-              <Instructions />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-        </Refreshable>
+        <Switch>
+          <Route path="/screenshots">
+            <Screenshots />
+          </Route>
+          <Route path="/instructions">
+            <Instructions />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
