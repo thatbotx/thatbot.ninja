@@ -2,9 +2,6 @@ import './App.css';
 import React from "react";
 import { useHistory } from 'react-router'
 
-const history = useHistory()
-history.go(0)
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +10,10 @@ import {
 } from "react-router-dom";
 
 export default function App() {
+  
+  const history = useHistory()
+  history.go(0)
+  
   return (
     <Router>
       <div>
