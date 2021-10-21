@@ -15,7 +15,7 @@ export default function App() {
   history.go(0)
   
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <div>
         <center>
           <ul className="block">
