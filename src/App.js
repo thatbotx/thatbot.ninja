@@ -194,9 +194,9 @@ function Instructions() {
       <p className="blue">The starter server has the <span className="red">"<strong>:</strong>25555"</span> added to the server name. Don't forget the colon '<span className="red"><strong>:</strong></span>' ...</p>
       <img src="./img/server/server-2.png" alt="Issue Wake Up" />
       <p className="blue">
-        When the server is hibernating you can't connect to "<span className="red">thatbot.ninja</span>". First wake it up!
+        When the server is hibernating you can't connect to <span className="red">thatbot.ninja</span>. First wake it up!
         <br />
-        Do so by connecting to the server first, then you get an error message, so click on "Go Back" and wait for about 30-40 seconds. Then finally connect to the server (<span className="red">thatbot.ninja:25555</span>).
+        Do so by connecting to the server first, then you get an error message, so click on "Go Back" and wait for about 30-40 seconds. Then finally connect to the server: <span className="red">thatbot.ninja:25555</span>.
       </p>
       <img src="./img/server/server-3.png" alt="Server is Hibernating" />
       <p className="blue">
