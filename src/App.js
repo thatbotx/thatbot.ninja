@@ -196,13 +196,13 @@ function Instructions() {
       <p className="blue">
         When the server is hibernating you can't connect to "<span className="red">thatbot.ninja</span>". First wake it up!
         <br />
-        Do so by connecting to the start server first and then click on "Go Back" and wait for about 30-40 seconds. Then finally connect to the 2nd server (<span className="red">thatbot.ninja</span>).
+        Do so by connecting to the server first, then you get an error message, so click on "Go Back" and wait for about 30-40 seconds. Then finally connect to the server (<span className="red">thatbot.ninja:25555</span>).
       </p>
       <img src="./img/server/server-3.png" alt="Server is Hibernating" />
       <p className="blue">
         When the server is ready to log in and when you press "Refresh", it should look like the picture above.
         <br />
-        Then log into the server: <span className="red">"thatbot.ninja"</span>. See the green bars behind it?
+        Then log into the <span className="red">thatbot.ninja</span> server. See the green bars behind it?
       </p>
       <img src="./img/server/server-4.png" alt="Server is Warming Up" />
       <p className="blue">Server is warming up.</p>
