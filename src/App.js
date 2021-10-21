@@ -9,18 +9,18 @@ import {
   Link,
 } from "react-router-dom";
 
-import { useLocation } from 'react-router'
+import { fetchData, useEffect, useLocation } from 'react-router';
 
 export default function App() {
   
-  const history = useHistory()
-  history.go(0)
+  const history = useHistory();
+  history.go(0);
 
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
-    fetchData()
-  }, [location.key])
+    fetchData();
+  }, [location.key]);
   
   return (
     <Router forceRefresh={true}>
