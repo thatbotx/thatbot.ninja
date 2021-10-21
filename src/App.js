@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import Refreshable from "react-router-refreshable";
+import { Refreshable } from "react-router-refreshable";
 
 import {
   BrowserRouter as Router,
@@ -9,12 +9,8 @@ import {
   Link,
 } from "react-router-dom";
 
-function reloadPage(){ 
-  window.location.reload(); 
-}
 
 export default function App() {
-  reloadPage();
   
   return (
     <Router forceRefresh={true}>
